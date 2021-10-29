@@ -16,10 +16,11 @@
  - 声卡
  - 亮度
  - 电池
- - 睡眠
+ - 睡眠 (如果出现睡眠过程中自动亮屏，请尝试勾掉唤醒以供网络访问)
  - USB
  - 快捷键 (亮度、音量)
  - 读卡器
+ - SATA (使用SSDT强制注入class-code 00010601 匹配通用类IOProviderClass：AppleAHCI)
  
  ## 鸣谢
 - [0xFireWolf](https://github.com/0xFireWolf) 提供 [RealtekCardReader](https://github.com/0xFireWolf/RealtekCardReader) [RealtekCardReaderFriend](https://github.com/0xFireWolf/RealtekCardReaderFriend).
